@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --blue: #0d2f81;
+  --beige: #ffe7aa;
+}
+header {
+  height: 90px;
+  width: 100%;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 90%;
+  background-color: white;
+  height: 20px;
+}
