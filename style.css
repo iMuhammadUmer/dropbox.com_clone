@@ -1,10 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 :root {
   --blue: #0d2f81;
   --beige: #ffe7aa;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 header {
   height: 90px;
@@ -15,7 +22,26 @@ header {
   align-items: center;
 }
 nav {
-  width: 90%;
-  background-color: white;
+  width: 80%;
   height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+nav li {
+  list-style-type: none;
+  margin: 0 2em 0 2em;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: white;
+}
+nav li a {
+  font-size: inherit;
+  color: inherit;
 }
