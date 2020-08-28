@@ -68,3 +68,16 @@ main p {
   margin-top: 2em;
   color: white;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.busyWork {
+  width: 100%;
+  height: 800px;
+  background-color: var(--beige);
+}
+.busyWork .content {
+  width: 80%;
+}
