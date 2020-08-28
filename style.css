@@ -106,6 +106,9 @@ section {
   width: 280px;
   margin-bottom: 0.5em;
 }
+.features {
+  width: 100%;
+}
 .plans {
   height: 510px;
   width: 100%;
